@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/song_title"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/txtDescript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gentree Benefit"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2017-03-21 00:28:00"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:visibility="gone"
+            android:layout_marginTop="6dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tranaction Id"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/txtTransactionid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="#93221674"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Balance"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/txtBalnce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="12000"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Credit"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                />
+            <TextView
+                android:id="@+id/txtCredit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1200"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Debit"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                />
+            <TextView
+                android:id="@+id/txtDebit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12000"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

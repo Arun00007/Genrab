@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabColor">#0bb1e7</color>
+
+    <color name="GREY_SHADE">#D3D3D3</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="apptheme_color">#000000</color>
+    <color name="card_background_color">#f2f2f2</color>
+    <color name="tab_indi">#808080</color>
+    <color name="tools">#052e70</color>
+    <color name="background">#053172</color>
+    <color name="button">#01baf2</color>
+
+
+
+    <color name="list_group_title">#808080</color>
+    <color name="list_item_title">#AAAAAA</color>
+
+    <color name="group_divider_color">#80CBC4</color>
+
+
+    <color name="lime">#E6EE9C</color>
+    <color name="orange">#FFCC80</color>
+    <color name="grey">#B0BEC5</color>
+    <color name="purple">#B39DDB</color>
+    <color name="pink">#F48FB1</color>
+
+</resources>

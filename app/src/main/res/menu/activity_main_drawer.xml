@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@mipmap/dashboard"
+            android:title="DashBoard" />
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic_user"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_addInvest"
+            android:icon="@mipmap/add_investment"
+            android:title="Add Investment" />
+        <item
+            android:id="@+id/nav_network"
+            android:icon="@mipmap/network_info"
+            android:title="Network Info" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/manage_widhdrawl"
+            android:title="Manage Widthdrawals" />
+        <item
+            android:id="@+id/nav_statement"
+            android:icon="@mipmap/statement"
+            android:title="Statement" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_user"
+            android:title="Account Setting" />
+    </group>
+
+    <group android:id="@+id/group_second">
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@mipmap/faq"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_term"
+            android:icon="@mipmap/terms_condition"
+            android:title="Term and Condition" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@mipmap/rate_us"
+            android:title="Rate Us" />
+
+    </group>
+    <group android:id="@+id/group_third">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/logout"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/song_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+               android:layout_weight=".70"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enhance Return of investment"
+                android:layout_weight=".30"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center|start">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Of Purchase"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2017-03-21 00:28:00"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layDistrub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center|start">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distribution Date"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtDistrub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017-03-21 00:28:00"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+   >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Invest Amount"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/txtInvestAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30000"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="6dp"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Generated Amount: "
+            android:layout_weight="1"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/txtGenrateAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="3000"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

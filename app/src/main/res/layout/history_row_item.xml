@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/list_rect"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center|start">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Invoice No."
+                android:layout_weight="1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/txtInvoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="234567"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/song_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/song_title"
+            android:layout_alignStart="@+id/song_title"
+            android:layout_below="@+id/song_title"
+
+            android:gravity="center|start">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="29-May-2017"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center|start">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:layout_weight="1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/txtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:layout_weight="1"
+                android:text="$34567"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/song_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/song_year"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_weight="1"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:textSize="14dp"
+                 />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+            <TextView
+                android:id="@+id/txtAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Invoice"
+                android:background="@drawable/view_rect"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textSize="14dp"
+                android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
